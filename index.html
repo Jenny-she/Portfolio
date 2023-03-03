@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/99a2379920.js" crossorigin="anonymous"></script>
 </head>
@@ -31,149 +33,154 @@
         </div>
     </div>
     <!--------------About----------------->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/whats-new.png" alt="">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About me</h1>
-                    <p> Hi!👋 <br>I am Jennifer, I am currently a developer and I enjoy creating things
-                        that live on the Internet. <br>Since I started my journey through this world, it has become
-                        something that
-                        I enjoy doing more and more in my day to day. I am willing and eager to join a team
-                        to continue learning and growing both personally and professionally.
-                        I am currently looking for new challenges to improve what I am passionate about and have
-                        an impact on people's lives through technology.<br>
-                        My favorite hobbies are physical activities, bike rides with my little brother,
-                        playing with my dogs
-                        <br> and cooking (just as I like to cook, I also love to eat 😋)
-                    </p>
+    <div class="containerBig">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/whats-new.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p> Hi!👋 <br>I am Jennifer, I am currently a developer and I enjoy creating things
+                            that live on the Internet. <br>Since I started my journey through this world, it has become
+                            something that
+                            I enjoy doing more and more in my day to day. I am willing and eager to join a team
+                            to continue learning and growing both personally and professionally.
+                            I am currently looking for new challenges to improve what I am passionate about and have
+                            an impact on people's lives through technology.<br>
+                            My favorite hobbies are physical activities, bike rides with my little brother,
+                            playing with my dogs
+                            <br> and cooking (just as I like to cook, I also love to eat 😋)
+                        </p>
 
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Java</span><br>Designing Web App</li>
-                            <li><span>Fronted</span><br>Html, CSS, Bootstrap, JS, Vue.js y React</li>
-                            <li><span>IDE:</span><br>Intellij y VSC</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>-Bootcamp MINDHUB - Fronted</span><br></li>
-                            <li><span>-Entrega de tasks y dailes con metodologia SCRUM en MINDHUB</span><br></li>
-                            <li><span>-Cursos con certificaciones:</span><br>Educacion IT, Crehana, CodelyTV y
-                                codigofacilito.</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>▫▫▫</span><br>Bachelor of Systems - UBA</li>
-                            <li><span>▫▫▫</span><br>Fronted Bootcamp- MINDHUB & AP</li>
-                        </ul>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Java</span><br>Designing Web App</li>
+                                <li><span>Fronted</span><br>Html, CSS, Bootstrap, JS, Vue.js y React</li>
+                                <li><span>IDE:</span><br>Intellij y VSC</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>-Bootcamp MINDHUB - Fronted</span><br></li>
+                                <li><span>-Entrega de tasks y dailes con metodologia SCRUM en MINDHUB</span><br></li>
+                                <li><span>-Cursos con certificaciones:</span><br>Educacion IT, Crehana, CodelyTV y
+                                    codigofacilito.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>▫▫▫</span><br>Bachelor of Systems - UBA</li>
+                                <li><span>▫▫▫</span><br>Fronted Bootcamp- MINDHUB & AP</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!--------------------Servicess----------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Calcu()</h2>
+                        <p>Creada con CSS, JS, Node.js y React</p>
+                        <a href="https://jenny-she.github.io/Calculadora-react/">More</a>
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-crop"></i>
+                        <h2>To do list</h2>
+                        <p>Lista de tareas hecha con JS, html y css. </p>
+                        <a href="https://jenny-she.github.io/ListadeTareas/">More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sed nemo voluptatum autem
+                            tenetur
+                            reiciendis temporibus natus, ducimus voluptatibus id ipsam maxime, minus perferendis unde
+                            beatae
+                            eveniet eaque? Modi, quam!</p>
+                        <a href="#">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------Portfolio------------------>
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work1.png" alt="">
+                        <div class="layer">
+                            <h3>Mindy Petshop</h3>
+                            <p>...</p>
+                            <a href="https://jenny-she.github.io/MindyPetshop-JS/"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work2.png" alt="">
+                        <div class="layer">
+                            <h3>Recipe App</h3>
+                            <p>...</p>
+                            <a href="https://jenny-she.github.io/Food/"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/teclass.png" alt="">
+                        <div class="layer">
+                            <h3>Teclas</h3>
+                            <p>...</p>
+                            <a href="https://jenny-she.github.io/Teclas/"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!--------------------Contact------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>jenni.she.wk@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>11 4141-0283</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/Jenny-she"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/Cv - Jennifer O. (1).pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form id="form" action="non-empty" class="form">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Your Message "></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <a href="mailto:jenni.she.wk@gmail.com" id="trucazo">mail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <!--------------------Servicess----------------->
-    <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Calcu()</h2>
-                    <p>Creada con CSS, JS, Node.js y React</p>
-                    <a href="https://jenny-she.github.io/Calculadora-react/">More</a>
-                </div>
-                <div>
-                    <i class="fa-sharp fa-solid fa-crop"></i>
-                    <h2>To do list</h2>
-                    <p>Lista de tareas hecha con JS, html y css. </p>
-                    <a href="https://jenny-she.github.io/ListadeTareas/">More</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-app-store-ios"></i>
-                    <h2>App</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sed nemo voluptatum autem tenetur
-                        reiciendis temporibus natus, ducimus voluptatibus id ipsam maxime, minus perferendis unde beatae
-                        eveniet eaque? Modi, quam!</p>
-                    <a href="#">More</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="copyright">
+        <p>Copyright © Jenni. Made with 🧡 </p>
 
-    <!----------Portfolio------------------>
-
-    <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="images/work1.png" alt="">
-                    <div class="layer">
-                        <h3>Mindy Petshop</h3>
-                        <p>...</p>
-                        <a href="https://jenny-she.github.io/MindyPetshop-JS/"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work2.png" alt="">
-                    <div class="layer">
-                        <h3>Recipe App</h3>
-                        <p>...</p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/teclass.png" alt="">
-                    <div class="layer">
-                        <h3>Teclas</h3>
-                        <p>...</p>
-                        <a href="https://jenny-she.github.io/Teclas/"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-            </div>
-            <a href="#" class="btn">See more</a>
-        </div>
-    </div>
-    <!--------------------Contact------------------->
-    <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>jenni.she.wk@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>11 4141-0283</p>
-                    <div class="social-icons">
-                        <a href="https://github.com/Jenny-she"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                    <a href="images/Cv - Jennifer O. (1).pdf" download class="btn btn2">Download CV</a>
-                </div>
-                <div class="contact-right">
-                    <form id="form" action="non-empty" class="form">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <textarea name="message" rows="6" placeholder="Your Message "></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                    <a href="mailto:jenni.she.wk@gmail.com" id="trucazo">mail</a>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            <p>Copyright © Jenni. Made with 🧡 </p>
-
-        </div>
     </div>
 
 
@@ -216,10 +223,15 @@
         function handleSubmit(event) {
             event.preventDefault()
             const form = new FormData(this)
-            $buttonMailto.setAttribute('href', `mailto:jenni.she.wk@gmail.com?subject= nombre ${form.get('name')}  correo ${form.get('email')}&body=${form.get('message')}`)
+            $buttonMailto.setAttribute('href', `mailto:jenni.she.wk@gmail.com?subject= 'Me gustaria contactarte' &body=${form.get('message')}`)
             $buttonMailto.click()
         }
     </script>
+    <!-- ${form.get('email')} -->
+<!-- nombre ${form.get('name')}  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+crossorigin="anonymous"></script>
 
 </body>
 
